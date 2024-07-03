@@ -18,6 +18,7 @@
 </head>
 <body class="font-manrope">
   <header class="container mx-auto">
+    <!-- navgigation bar section here  -->
     <div class="navbar bg-base-100">
       <div class="navbar-start">
         <div class="dropdown">
@@ -47,7 +48,7 @@
         </div>
         <h1 class="text-4xl font-extrabold text-[#131318]">Hokey<span class="text-[#FF4240]">'<span>s</h1>
       </div>
-      <div class="navbar-center hidden lg:flex">
+      <div class="navbar-center hidden text-[#424247] font-normal text-base lg:flex">
         <ul class="menu menu-horizontal px-1">
           <li><a>Home</a></li>
           <li> <a href="">About</a></li>
@@ -73,6 +74,49 @@
         </button>
       </div>
     </div>
+    <!-- banner section starts here  -->
+     <section class=" md:my-14"> 
+      <div class="carousel rounded-xl md:h-[550px] w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img
+            src="./Images/1.png"
+            class="w-full object-contain md:object-cover " />
+          <div class="absolute flex justify-center md:justify-start lg:justify-start w-full top-2/4 md:top-full md:left-5 md:-bottom-36 lg:top-full lg:left-5 lg:-bottom-36 -translate-y-1/2 transform">
+            <a href="#slide4" class="btn btn-circle ml-4 border-none text-white bg-[#131318]">❮</a>
+            <a href="#slide2" class="btn btn-circle ml-4 border-none  text-white bg-[#131318]">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img
+            src="./Images/2.png"
+            class="w-full object-contain md:object-cover" />
+          <div class="absolute flex justify-center md:justify-start lg:justify-start w-full top-2/4 md:top-full md:left-5 md:-bottom-36 lg:top-full lg:left-5 lg:-bottom-36 -translate-y-1/2 transform">
+            <a href="#slide1" class="btn btn-circle ml-4 border-none  text-white bg-[#131318]">❮</a>
+            <a href="#slide3" class="btn btn-circle ml-4  border-none text-white bg-[#131318]">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <img
+            src="./Images/3.png"
+            class="w-full object-contain md:object-cover" />
+          <div class="absolute flex justify-center md:justify-start lg:justify-start w-full top-2/4 md:top-full md:left-5 md:-bottom-36 lg:top-full lg:left-5 lg:-bottom-36 -translate-y-1/2 transform">
+            <a href="#slide2" class="btn btn-circle ml-4 border-none  text-white bg-[#131318]">❮</a>
+            <a href="#slide4" class="btn btn-circle ml-4 border-none text-white bg-[#131318]">❯</a>
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+          <img
+            src="./Images/4.png"
+            class="w-full object-contain md:object-cover" />
+          <div class="absolute flex justify-center md:justify-start lg:justify-start w-full top-2/4 md:top-full md:left-5 md:-bottom-36 lg:top-full lg:left-5 lg:-bottom-36 -translate-y-1/2 transform">
+            <a href="#slide3" class="btn btn-circle ml-4 border-none  text-white bg-[#131318]">❮</a>
+            <a href="#slide1" class="btn btn-circle ml-4 border-none  text-white bg-[#131318]">❯</a>
+          </div>
+        </div>
+      </div>
+     </section>
+
+
 
   </header>
   <main>
